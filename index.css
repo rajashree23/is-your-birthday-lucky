@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    color: rebeccapurple;
+    /* max-width: 600px; */
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+label{
+    font-size: large;
+    padding: 2rem;
+}
+
+input{
+    font-size: small;
+}
+button{
+    border: none;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: large;
+    border-radius: 12px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#output-box{
+    font-size: x-large;
+}
